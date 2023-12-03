@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {ProductService} from "../services/product.service";
-import {error} from "@angular/compiler-cli/src/transformers/util";
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {Product} from "../model/product.model";
 

@@ -11,10 +11,7 @@ const routes: Routes = [
   {path:"newProduct",component:NewProductComponent},
   {path:"editProduct/:id",component:EditProductComponent},
 
-
-
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
