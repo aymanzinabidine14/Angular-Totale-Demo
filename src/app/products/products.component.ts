@@ -22,6 +22,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
     this.searchProduct();
+    console.log(this.appState.authState.roles)
   }
 
   searchProduct(){
@@ -93,6 +94,6 @@ export class ProductsComponent implements OnInit {
   }
 
   handleUpdateProduct(product: Product) {
-    this.router.navigateByUrl(`/editProduct/${product.id}`)
+    this.router.navigateByUrl(`/admin/editProduct/${product.id}`)
   }
 }
